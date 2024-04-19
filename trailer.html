@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MOVIE</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     <nav class="navbar">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="trailer.html">Trailer</a></li>
+        <li><a href="/cast/cast.html">Cast</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+      </ul>
+    </nav>
+    <section class="trailer-main-container">
+      <img
+        class="trailer-img"
+        src="/assets/test_banner.jpeg"
+        alt="movie-image"
+      />
+      <h1 class="trailer-title">Rush Hour</h1>
+      <article class="about-movie-article">
+       "Rush Hour" is a gripping psychological thriller where Detectives Lee and Carter uncover dark secrets while racing against time to solve a mysterious disappearance. As they navigate through a web of lies and danger, they confront their own inner demons in a suspenseful battle for survival.
+
+      </article>
+      <button class="watch-btn"><span>Watch trailer</span></button>
+    </section>
+    <div class="trailer-container active">
+      <video src="pexels-c-technical-5302616.mp4" controls></video>
+      <img class="cancel-icon" src="/assets/cancel.svg" alt="cancel icon"/>
+      
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

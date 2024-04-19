@@ -20,13 +20,13 @@ document.addEventListener('DOMContentLoaded', function () {
       element.classList.add('live');
 
       if (id === 'step1') {
-        image.src = '/assets/cast1.webp';
+        image.src = 'cast1.webp';
         console.log({ img1: image.src });
       } else if (id === 'step2') {
-        image.src = '/assets/cast2.webp';
+        image.src = 'cast2.webp';
         console.log({ img2: image.src });
       } else if (id === 'step3') {
-        image.src = '/assets/cast3.webp';
+        image.src = 'cast3.webp';
         console.log({ img3: image.src });
       }
     }

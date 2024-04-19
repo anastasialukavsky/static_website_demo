@@ -79,6 +79,7 @@ body {
 .nav-links li a:hover::after {
   background-color: #fff;
 }
+
 .content {
   padding: 20px;
 }
@@ -310,4 +311,3 @@ h1 {
 .ticket-type p {
   margin-bottom: 15px;
 }
-
